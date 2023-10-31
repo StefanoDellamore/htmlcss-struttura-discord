@@ -62,7 +62,7 @@
 
 .container-top {
     width: 100%;
-    height: 400px;
+    height: 350px;
     justify-content: center;
     align-items: center;
     background-color: rgb(6, 6, 167);
@@ -84,7 +84,7 @@
 /* start box1 */
 
 .container-box {
-    height: 350px;
+    height: 300px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@
 /* start box1-reverse */
 
 .container-box-reverse {
-    height: 350px;
+    height: 300px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -162,3 +162,65 @@
 
 /* end container-button */
 /* end main */
+
+/* start footer-top */
+
+
+.container-footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(58, 58, 58);
+}
+
+.box-footer-top {
+    width: 70%;
+    height: 350px;
+    margin: 10px 0;
+}
+
+.box2-right {
+    width: 40%;
+    height: 100%;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.box2-left {
+    height: 100%;
+    width: 100%;
+}
+
+.box-mini {
+    background-color: rgb(9, 172, 117);
+    border: 1px dashed black;
+    width: calc(100% / 4);
+
+}
+
+/* end footer-top */
+
+/* start footer-botton */
+
+.box-footer-botton {
+    width: 70%;
+    height: 50px;
+    margin: 10px 0;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-footer {
+    background-color: brown;
+    border: 1px dashed black;
+    padding: 5px; 
+}
+
+hr {
+    color: white;
+    width: 100%;
+}
+
+/* end footer-botton */
