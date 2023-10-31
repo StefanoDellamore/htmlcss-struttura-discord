@@ -51,3 +51,114 @@
 }
 
 /* end header */
+
+/* start main */ 
+
+/* start container-main-top */
+
+.container-main {
+    flex-direction: column;
+}
+
+.container-top {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 167);
+}
+.box {
+    height: 80%;
+    width: 60%;
+    background-color: violet;
+    border: 1px dashed black;
+}
+/* end container-main-top */
+
+/* start container-centre */
+
+.container-centre {
+    flex-direction: column;
+}
+
+/* start box1 */
+
+.container-box {
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.box1 {
+    height: 80%;
+    width: 70%;
+}
+
+.box1-left {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(0, 110, 255);
+    border: 1px dashed black;
+}
+
+.box1-right {
+    height: 100%;
+    width: 35%;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+/* end box1 */
+
+/* start box1-reverse */
+
+.container-box-reverse {
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.box1-reverse {
+    height: 80%;
+    width: 70%;
+}
+
+.box1-left-reverse {
+    height: 100%;
+    width: 35%;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.box1-right-reverse {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(0, 110, 255);
+    border: 1px dashed black;
+}
+/* end box1-reverse */
+/* end container-centre */
+
+/* start container-button */
+
+.container-botton {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box-botton {
+    height: 90%;
+    width: 70%;
+    background-color: green;
+    border: 1px dashed black;
+}
+
+/* end container-button */
+/* end main */
